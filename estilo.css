@@ -1,17 +1,158 @@
-h1{
-    font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body{
+    
+    margin: 0;
+    background-color:  #FFFFFF;
+    font-family: 'Arial', sans-serif;
+
+}
+.logo{
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+ 
+  margin-top: 0px;
+
+
+}
+.banner {
+  background-image: url("https://cdn.awsli.com.br/600x450/1231/1231330/produto/49182638/3b05c9e2af.jpg");
+    background-size: cover;
+    width: 140%;
+    height: 390px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    width: 100%;
+  }
+  
+ 
+  
+  .banner-texto {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 15px;
+    margin-top: 0px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
 }
 
-body{
-    background-image:  url(" https://i.pinimg.com/236x/af/df/70/afdf7099e5dbabcd2d79ad4207b5be7a.jpg ");
-    min-height:100vh;
-    background-repeat: no-repeat ;
-    background-size : cover;
-    background-position:top;
-    height:100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;                               
+nav ul {
+  list-style: none;
+  display: flex;
 }
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+#sobre {
+  text-align: center;
+}
+
+.co{
+   
+  padding: 1em;
+
+}
+
+h1 {
+    font-family: 'Arial', sans-serif; /* Escolha a fonte que preferir */
+    color: #0c0e0c; /* Cor verde para combinar com o tema de jardim */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    background-color: #FFF8DC; /* Um tom claro de madeira como fundo */
+    border-bottom: 8px solid #DEB887; /* Uma borda inferior para destacar */
+    margin-bottom: 30px; /* Espaçamento abaixo do título */
+    border-top: 8px solid#DEB887;
+  
+  }
+  /* Adicione este CSS em um arquivo chamado styles.css */
+
+ 
+  
+
+.form-container{
+    width: 350px;
+    background-color:#8fa190;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(39, 51, 39, 0.1);
+    text-align: left;
+    padding-right: 50px;
+   
+
+
+
+}
+h2{
+    font-size: 24px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width:100%;
+    padding: 10px;
+    margin-bottom:20px;
+    border: 1px solid #ccc;
+    border-radius :5px;
+
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:20px ;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    
+}
+
+.accept-terms{
+    margin-bottom: 20px;
+
+}
+.submit-button,
+.cancel-button{
+    background-color: #2f573b;
+    color: #fffeff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.cancel-button{
+    background-color: rgb(206, 146, 164);
+
+}
+
+    
+
