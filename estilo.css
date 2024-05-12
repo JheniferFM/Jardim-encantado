@@ -81,18 +81,18 @@ nav ul li a {
 
 }
 
-h1 {
-    font-family: 'Arial', sans-serif; /* Escolha a fonte que preferir */
-    color: #0c0e0c; /* Cor verde para combinar com o tema de jardim */
-    text-align: center; /* Centraliza o texto */
-    padding: 20px; /* Adiciona um espaçamento interno */
-    background-color: #FFF8DC; /* Um tom claro de madeira como fundo */
-    border-bottom: 8px solid #DEB887; /* Uma borda inferior para destacar */
-    margin-bottom: 30px; /* Espaçamento abaixo do título */
+.ab{
+    font-family: 'Arial', sans-serif; 
+    color: #0c0e0c;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF8DC;
+    border-bottom: 8px solid #DEB887; 
+    margin-bottom: 30px; 
     border-top: 8px solid#DEB887;
   
   }
-  /* Adicione este CSS em um arquivo chamado styles.css */
+ 
 
  
   
@@ -150,9 +150,34 @@ textarea{
 
 }
 .cancel-button{
-    background-color: rgb(206, 146, 164);
+    background-color:#f5a1af;
 
 }
 
     
 
+.menu-container {
+  background-color: #DEB887;
+  padding: 20px;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  margin-right: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #0d420f;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+.menu a:hover {
+  background-color:#fac5ce ;
+}
+ 
