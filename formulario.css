@@ -1,0 +1,60 @@
+/*fomulario*/
+.body-f{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: #e8f5e8;
+  }
+    
+
+  
+
+.formulario{
+  max-width: 700px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #7d8f80;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   
+
+  }
+  h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+input[type="text"],
+input[type="email"],
+input[type="telefone"] {
+    width:90%;
+    padding: 10px;
+    margin-bottom:20px;
+    border: 1px solid #ccc;
+    border-radius :5px;
+
+
+  }
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #cc92c2;
+    color: white;
+    cursor: pointer;
+  }
+
+  
+
+  button:hover {
+    background-color: #1d2b1d;
+  
+}
